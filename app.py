@@ -46,6 +46,10 @@ def edit_gym(gym_id):
 def delete_gym(gym_id):
     mongo.db.gyms.remove({'_id': ObjectId(gym_id)})
     return redirect(url_for('get_gym_names'))
+    
+@app.route("/leave_review")
+def leave_review():
+    return render_template("leave_review.html", rivers=mongo.db.gyms.find())    
 
 
 if __name__ == '__main__':
