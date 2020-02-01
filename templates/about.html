@@ -1,0 +1,21 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="container-fluid">
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
+            <div class="jumbotron">
+                <h1 class="display-4">About Us</h1>
+                <p class="lead">Working It Out offer an online platform for Fitness Facilities and FitPros to register profiles to showcase their unique selling points, their facilities, and their achievements. We make things easy for the experienced and not so experienced
+                    gym-goer to find the Fitness Facility or Trainer that’s perfect for them. We offer an opportunity for past and present clients of Fitness Facilities and FitPros to voice their fair and honest opinions of their experience. Most importantly,
+                    we aim to protect and improve the standards within the Irish Fitness Industry by providing the clearest picture of what’s available. Want to know more? Click the button below to see and review all the current gyms on our website. 
+                    a profile.</p>
+                <hr class="my-4">
+                <p>We are a small, local website at the moment so we may not have all the gyms in the area. If you can't see youyr gym on the list please feel free to add it as this will benefit other local gym goers and grow our database :)</p>
+                <a class="btn btn-success btn-lg" href="{{url_for('get_gyms')}}" role="button">Let's Go!</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
