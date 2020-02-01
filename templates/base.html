@@ -3,13 +3,35 @@
 
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" />
 </head>
 
 <body>
+    <header>
+        <!-- Navbar taken from Bootstrap -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark home-logo-text">
+            <a class="navbar-brand" href="{{url_for('get_gyms')}}">Working It Out! <i
+                    class="fas fa-dumbbell"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="{{url_for('about')}}">About Us</a>
 
-    {% block content %} 
-    {% endblock %}
+                </div>
+            </div>
+        </nav>
+    </header>
+        <!-- Container for background image -->
+    <div class="container-fluid bg">
+    </div>
+    <!-- Container for injected templates -->
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 template-col">
+
+    {% block content %} {% endblock %}
 
 
 
