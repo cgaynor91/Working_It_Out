@@ -48,9 +48,16 @@ def delete_gym(gym_id):
     return redirect(url_for('get_gym_names'))
     
 @app.route("/leave_review")
-def leave_review():
-    return render_template("leave_review.html", rivers=mongo.db.gyms.find())    
+def gym_review():
+    return render_template("gym_review.html", gyms=mongo.db.gyms.find())    
+    
+# Sends the data that the user inserts to the database
 
+@app.route("/gym_review", methods=['POST'])
+def insert_review():
+    review = mongo.db.gym_reviews
+    review.insert_one(request.form.to_dict())
+    return redirect(url_for('gym_review'))
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
