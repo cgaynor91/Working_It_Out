@@ -1,0 +1,15 @@
+{% extends 'base.html'%}
+{% block content %}
+    
+ {% for gym in gyms %}
+ 
+    {{gym.gym_name}}
+    {{gym.gym_type}}
+    {{gym.gym_address}}
+    {{gym.cost}}
+    {{gym.gym_url}}
+    {{gym.open_sunday}}
+    
+ {% endfor %}
+    
+{% endblock %}
