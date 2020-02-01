@@ -16,15 +16,14 @@
                 </div>
                 <div class="form-group font-weight-bolder">
                     <label for="type">Gym Type</label>
-                    <select class="form-control" id="type" name="type">
-                        <option value="{{gym.type}}" selected>{{gym.type}}</option>
-                        {% if gym.type == "General Gym" %}
+                    <select class="form-control" id="gym_type" name="gym_type">
+                        <option value="{{gym.gym_type}}" selected>{{gym.gym_type}}</option>
+                        {% if gym.gym_type == "General Gym" %}
                         <option>Personal Training</option>
                         <option>Fitness Classes</option>
                         <option>Weightlifting</option>
                         <option>Gym and Pool</option>
-                        {% else %}
-                        <option>General Gym</option>
+                      
                         {% endif %}
                     </select>
                 </div>
