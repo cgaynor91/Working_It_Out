@@ -19,18 +19,17 @@ def get_gyms():
 def about():
     return render_template("about.html")
     
-# ADD_RIVER page:
 
 @app.route("/add_new_gym")
 def add_new_gym():
     return render_template("add_gym.html")
 
-# This function POSTs the input data from the user, to the database:
+# Sends the data that the user inserts to the database
 
 @app.route("/insert_gym", methods=['POST'])
 def insert_gym():
-    river = mongo.db.gyms
-    river.insert_one(request.form.to_dict())
+    gym = mongo.db.gyms
+    gym.insert_one(request.form.to_dict())
     return redirect(url_for('get_gym_names'))
 
 
@@ -41,6 +40,12 @@ def edit_gym(gym_id):
     the_gym = mongo.db.gyms.find_one({"_id": ObjectId(gym_id)})
     return render_template("update_gym.html", gym=the_gym)
 
+# Delete option for a user if they wish to delete a review they wrote or delete a review written by someone else that may be incorrect
+
+@app.route("/delete_gym/<gym_id>")
+def delete_gym(gym_id):
+    mongo.db.gyms.remove({'_id': ObjectId(gym_id)})
+    return redirect(url_for('get_gym_names'))
 
 
 if __name__ == '__main__':
