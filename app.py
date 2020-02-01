@@ -55,9 +55,14 @@ def gym_review():
 
 @app.route("/gym_review", methods=['POST'])
 def insert_review():
-    review = mongo.db.gym_reviews
+    review = mongo.db.reviews
     review.insert_one(request.form.to_dict())
     return redirect(url_for('gym_review'))
+
+
+@app.route("/read_review")
+def read_review():
+    return render_template("read_reviews.html", reviews=mongo.db.reviews.find())
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
