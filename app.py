@@ -30,7 +30,7 @@ def add_new_gym():
 def insert_gym():
     gym = mongo.db.gyms
     gym.insert_one(request.form.to_dict())
-    return redirect(url_for('get_gym_names'))
+    return redirect(url_for('get_gyms'))
 
 
 # Allows user to update information about a gym
@@ -39,13 +39,25 @@ def insert_gym():
 def edit_gym(gym_id):
     the_gym = mongo.db.gyms.find_one({"_id": ObjectId(gym_id)})
     return render_template("update_gym.html", gym=the_gym)
+    
+@app.route("/update_gym/<gym_id>", methods=["POST"])
+def update_gym(gym_id):
+    gym = mongo.db.gyms
+    gym.update({'_id': ObjectId(gym_id)}, {
+        'gym_name' : request.form.get('gym_name'),
+        'status' : request.form.get('gym_type'),
+        'address' : request.form.get('gym_address'),
+        'cost' : request.form.get('cost'),
+        'gym_url' : request.form.get('gym_url')
+    })
+    return redirect(url_for('get_gyms'))
 
 # Delete option for a user if they wish to delete a review they wrote or delete a review written by someone else that may be incorrect
 
 @app.route("/delete_gym/<gym_id>")
 def delete_gym(gym_id):
     mongo.db.gyms.remove({'_id': ObjectId(gym_id)})
-    return redirect(url_for('get_gym_names'))
+    return redirect(url_for('get_gyms'))
     
 @app.route("/leave_review")
 def gym_review():
