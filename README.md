@@ -3,11 +3,11 @@ Data Centric Development
 <br> Third Milestone Project
 </h1>
 ***
-For my third milestone project I decided to create a web application that allowed users to view local gyms in their area, see reviews from other gym goers or write a review themselves!
+For my third milestone project I decided to create a web application that allowed users to view local gyms in their area, see reviews from other gym goers or write a review themselves, all information would be stored and updated on a database which will allow the application to progress and grow as more and more information is recorded to the database.
 
 There does not seem to be a "one-stop" application where a user can go and see a list of gyms in their local area with real life reviews. If a user was to visit the gyms actual webpage there would be reviews on the site however, as it is with most business websites, a lot of the reviews are fabricated by owners/employees or relatives of the business.
 
-My vision was to create an application where users could read honest reviews about local gyms in their areas that might help them find a gym that would suit them. This website would also benefit local gyms as their details are advertised and they are able to get real life feedback from their customers. 
+My vision was to create an application where users could read honest reviews about local gyms in their areas that might help them find a gym that would suit them. This website would also benefit local gyms as their details are advertised and they are able to get real life feedback from their customers.
 
 ## Table of Contents:
 * [What is the project?](#what-does-it-do-and-what-does-it-need-to-fulfill)
@@ -47,6 +47,9 @@ As I mentioned the application contains the CRUD required functionalities and it
 
 The application allows user to read, update, create and delete data about local gyms and read reviews left by other application users. These functions are completed utilising the connection the MongoDB database which is updated in turn. 
 
+Users are only allowed to review a gym that is already on the database, however if they wish to add a gym that isn't on the database that functionality has been provided. When the user is writing their review they are given a calendar option which allows them to input the date they reviewed the gym. 
+
+They are also given a dropdown menu when reviewing the gym of what the cost is and what type of gym it is, pay as you go, membership only etc.
 
 The project is version controlled via Git & Github and is deployed via Heroku. All environment variables are held in a git ignored file.
 
@@ -59,6 +62,21 @@ The project is version controlled via Git & Github and is deployed via Heroku. A
 * *As a  User,* I want to view the local gyms that are available to me in my area.
 * *As a  User,*  I want to be able to read reviews from other gym goers and see what their experiences were like.
 * *As a  User,* I want to be able to navigate from page to page easily.
+* *As a  User,* I would like for the website to be informative and helpful.
 * *As a  User,* I would like to be able to write my own review of my gym or a gym I attended
+* * *As a  User,* I would like to able to view this application on all device widths.
 * *As a  Gym Owner,* I would like to be able to view reviews about my gym.
 * *As a  Gym Owner,*  I would like to be able to update the details about my gym if someone has mistakenly provided inaccurate information. 
+### Design Ideas
+
+- When designing the application I wanted to keep it relatively simplistic as I feel it gives it a modern touch.
+
+- I was conscious that my concept was to have users write their reviews and view data about gyms so I didn't want to overload the website with surplus information and images which in turn would overload the user.
+
+- I used a dark navbar and dark typography theme as this is a gym website and as gym goers know - there aren't many weights that are brightly coloured (well not the heavy ones). 
+
+- I utilised the forms from bootstrap and adapted them accordingly using the colour scheme that has been applied throughout.
+
+- The font I selected as the primary font 
+
+-  
