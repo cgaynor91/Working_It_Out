@@ -111,3 +111,48 @@ controlling throughout the life-cycle of the project build.
 * <a href="https://validator.w3.org/">W3C CSS Validator</a>
 * <a href="https://jshint.com/">JSHint</a>
 * <a href="https://fontawesome.com/icons?d=gallery">Font Awesome Icons</a> ~ For social icons in footer
+
+## Features
+
+* Users are immediately greeted with a welcome message and a paragraph about the website. What the website is about and the functionality is explained clearly.
+* There is a list of gyms that users can see on the home page and it is explained to them if they wish to update or edit any of the gyms all they have to do is click on the gym name!
+* The user can edit any of the gyms that are listed on the website and are provided with two prepopulated fields for gym type and and membership cost.
+* There is an option for a user to write a review on a gym provided it is on the database. This will then be posted to the review section of the website for other users to see - they will be able to tell who wrote the review and when and about which gym.
+* The user also has an option to delete an entry when they click on the gym name. 
+* If a user chooses to delete an entry a modal will pop up asking if they are sure they want to delete the entry.
+* The footer has social links linking to all the main social technologies
+
+
+[Back to Top](#table-of-contents)
+
+#### Left To Implement:
+
+* A user login/sign up
+* An email to functionality to allow users to email me if there is an issue or perhaps set up a email alert when new reviews are posted
+* Search functionality to allow users to search for a gym based on location,cost, type etc.
+
+## Testing 
+
+ - Using [Browserling](https://www.browserling.com/) I tested the website across multiple browsers to ensure responsiveness and compatibility. 
+ 
+ - Using Google Chrome developer tools I tested the websites responsiveness across various devices ie. iPhone, Android and Tablets. 
+ 
+ - Manually tested all the hover styling on the navbar and also the links - all operating correctly.
+
+- [W3C Markup Validation Service](https://validator.w3.org/) was used to validate HTML code
+
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate CSS code. 
+
+- [Code Beautify JavaScript Validator](https://codebeautify.org/jsvalidate) was used to validate Javascript code. 
+
+- Manually tested all forms to ensure that if I edited a gyms information it would change
+
+- Manually tested add gym form to make sure the new data appeared on the home page
+
+- Manually tested the delete function to ensure data was removed from the application
+
+- Manually wrote reviews to check and see if reviews were posting to the correct html.file in the right format. 
+
+#### Issues When Testing
+
+- When I was adding a new gym some aspects of the new information were not adding to the datatable on the home page, I realised 
