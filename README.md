@@ -30,4 +30,16 @@ There is a focus in the brief to
 
 >Create functionality for users to create, locate, display, edit and delete records (CRUD functionality). <br>
 
-This Application will allow a user to create, read, update and delete details and reviews about local gyms and is called <a href="">Working It Out</a>.
+The application I have developed I believe meets the briefs specifications in that it  will allow a user to create, read, update and delete details and reviews about local gyms, data of which will be stored in the MONGODB database. <br>
+
+The app I have created is called <a href="">Working It Out</a>.
+
+### Project Functionality
+As I mentioned the application contains the CRUD required functionalities and it utilises MongoDB as the data handling, document based database. User functionality is created using HTML templates, Flask and styled with CSS. The frontend framework is dependent on the popular Bootstrap Framework, aiding the layout and the structure of the page and helping with responsive design. 
+
+The application allows user to read, update, create and delete data about local gyms and read reviews left by other application users. These functions are completed utilising the connection the MongoDB database which is updated in turn. 
+
+
+The project is version controlled via Git & Github and is deployed via Heroku. All environment variables are held in a git ignored file.
+
+[Back to top](#table-of-contents)
