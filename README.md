@@ -1,4 +1,7 @@
-# Milestone Project 3
+<h1 align="center">
+Data Centric Development
+<br> Third Milestone Project
+</h1>
 ***
 
 ## Table of Contents:
