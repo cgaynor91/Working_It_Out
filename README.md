@@ -3,6 +3,11 @@ Data Centric Development
 <br> Third Milestone Project
 </h1>
 ***
+For my third milestone project I decided to create a web application that allowed users to view local gyms in their area, see reviews from other gym goers or write a review themselves!
+
+There does not seem to be a "one-stop" application where a user can go and see a list of gyms in their local area with real life reviews. If a user was to visit the gyms actual webpage there would be reviews on the site however, as it is with most business websites, a lot of the reviews are fabricated by owners/employees or relatives of the business.
+
+My vision was to create an application where users could read honest reviews about local gyms in their areas that might help them find a gym that would suit them. This website would also benefit local gyms as their details are advertised and they are able to get real life feedback from their customers. 
 
 ## Table of Contents:
 * [What is the project?](#what-does-it-do-and-what-does-it-need-to-fulfill)
@@ -46,3 +51,14 @@ The application allows user to read, update, create and delete data about local 
 The project is version controlled via Git & Github and is deployed via Heroku. All environment variables are held in a git ignored file.
 
 [Back to top](#table-of-contents)
+
+## UX
+
+### User Experience
+
+* *As a  User,* I want to view the local gyms that are available to me in my area.
+* *As a  User,*  I want to be able to read reviews from other gym goers and see what their experiences were like.
+* *As a  User,* I want to be able to navigate from page to page easily.
+* *As a  User,* I would like to be able to write my own review of my gym or a gym I attended
+* *As a  Gym Owner,* I would like to be able to view reviews about my gym.
+* *As a  Gym Owner,*  I would like to be able to update the details about my gym if someone has mistakenly provided inaccurate information. 
