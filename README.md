@@ -87,7 +87,8 @@ The project is version controlled via Git & Github and is deployed via Heroku. A
 
 ### Wireframing
 
-When I was inititally thinking of the project I went online to have a look at other possible websites to get inspiration, this is when I discovered the lack of such websites. This probably made it harder to decide what style website to go with as I had to keep within my capablities and not get too imaginative. I created wireframes using Balsamiq, displaying what I would like the application to look like on all devices.
+When I was inititally thinking of the project I went online to have a look at other possible websites to get inspiration, this is when I discovered the lack of such websites. This probably made it harder to decide what style website to go with as I had to keep within my capablities and not get too imaginative. I found that as my project went along I changed my mind about the design a few times and changed the framework of it.
+
 
 [Back to Top](#table-of-contents)
 
