@@ -5,9 +5,9 @@
   <div class="col-12 jumbo-text">
    <div class="jumbotron">
     <h1 class="display-3">Welcome</h1>
-    <p></b>We offer an online platform for all people involved in the Irish Fitness Industry, whether they be business owners looking to showcase their work or gym-goers looking to find or review Fitness Facilities and FitPros.</p>
+    <p class="welcome-para"></b>We offer an online platform for all people involved in the Irish Fitness Industry, whether they be business owners looking to showcase their work or gym-goers looking to find or review Fitness Facilities and FitPros.</p>
     <hr>
-    <p>We take information volunteered by the Facilities, FitPros, Reviewers and Searchers and we put all that together to help put the right person in the right hands to begin or further their fitness journey. Click on the <button type="button" class="btn btn-info btn-sm">Blue Button</button>     below to read and edit/update records about a gym. Having up-to-date records about gyms in the area help our website and helps other local gym goers.</p>
+    <p class="welcome-para">We take information volunteered by the Facilities, FitPros, Reviewers and Searchers and we put all that together to help put the right person in the right hands to begin or further their fitness journey. Click on the <button type="button" class="btn btn-dark">Gym Name</button>     below to read and edit/update records about a gym. Having up-to-date records about gyms in the area help our website and helps other local gym goers.</p>
    </div>
   </div>
  </div>
@@ -33,7 +33,7 @@
 
      {% for gym in gyms %}
      <tr>
-      <td><a class="btn btn-info btn-sm" href="{{url_for('edit_gym', gym_id=gym._id)}}" role="button">{{gym.gym_name}}</a></td>
+      <td><a class="btn btn-outline-dark btn-home" href="{{url_for('edit_gym', gym_id=gym._id)}}" role="button">{{gym.gym_name}}</a></td>
       <td>{{gym.gym_type}}</td>
       <td>{{gym.gym_address}}</td>
       <td>{{gym.cost}}</td>

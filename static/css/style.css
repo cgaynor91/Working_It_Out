@@ -1,7 +1,8 @@
-.body {
+/*.body {
     margin: 0;
     padding: 0;
 }
+*/
 
 .container-fluid {
     text-align: center;
@@ -13,9 +14,27 @@
 }
 
 .display-3 {
-    margin-top: 10px;
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 5rem;
 }
-    
+
+hr {
+    border: 1px solid grey;
+}
+
+.welcome-para {
+    margin-top: 0px;
+    margin-bottom: 3rem;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
 .bg {
     background-image: url(../images/bg-image.png);
     background-size: cover;
@@ -37,5 +56,9 @@
     font-weight: bolder;
 }
 
-/*
+.btn-home {
+    font-weight: bold;
+    min-width: 250px;
+}
 
+/*
