@@ -3,7 +3,7 @@
 
 <div class="container-fluid-review">
  <div class="row justify-content-center">
-        <div class="col-10 text-dark welcome-text">
+        <div class="col-10 text-dark text-center display-3">
             <h1><strong>Check out the reviews here!</strong></h1>
         </div>
      
@@ -16,7 +16,7 @@
                         <li class="media">
                             <img src="{{ url_for('static', filename='images/user.png') }}" class="mr-3" alt="User">
                             <div class="media-body">
-                                <h6><strong></strong>Gym Reviewed: {{review.gym_name}}</strong></h5>
+                                <h4><strong></strong>Gym Reviewed: {{review.gym_name}}</strong></h4>
                                 <span>Date of Review: {{review.date_of_review}} </span>
                                 <p>Review by: {{review.review_by}} </p>
                                 <p>{{review.review}}</p>

@@ -64,7 +64,7 @@ The project is version controlled via Git & Github and is deployed via Heroku. A
 * *As a  User,* I want to be able to navigate from page to page easily.
 * *As a  User,* I would like for the website to be informative and helpful.
 * *As a  User,* I would like to be able to write my own review of my gym or a gym I attended
-* * *As a  User,* I would like to able to view this application on all device widths.
+* *As a  User,* I would like to able to view this application on all device widths.
 * *As a  Gym Owner,* I would like to be able to view reviews about my gym.
 * *As a  Gym Owner,*  I would like to be able to update the details about my gym if someone has mistakenly provided inaccurate information. 
 
