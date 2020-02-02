@@ -25,6 +25,7 @@
     line-height: 1.2;
     margin-bottom: 3rem;
     font-family: 'Rubik', sans-serif;
+    color: #343a40;
 }
 
 hr {
@@ -99,19 +100,22 @@ hr {
     color: #fff;
 }
 
-.review {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    margin-bottom: 50px;
-    
+
+@media only screen and (max-width: 550px) {
+    .table {
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .btn-sm {
+        font-size: 9px;
+        
+    }
+    .table-data {
+        padding-right: 1px;
+        padding-left: 1px;
+    }
 }
 
 
 
 
-
-/*
