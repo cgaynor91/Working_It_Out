@@ -155,4 +155,23 @@ controlling throughout the life-cycle of the project build.
 
 #### Issues When Testing
 
-- When I was adding a new gym some aspects of the new information were not adding to the datatable on the home page, I realised 
+- When I was adding a new gym some aspects of the new information were not adding to the datatable on the home page, I realised that in my form I did not have an 'id' specified for the form to pull the data. 
+
+- When scrolling down on the home page there was a white space where the navbar should have been. I googled sack overflow and many developer websites and tried suggested fixes however it is something I will have to do more research into.
+
+## Deployment
+
+* I created this project in the AWS Cloud9 IDE. Within the terminal using git I pushed to my <a href="https://github.com/cgaynor91/Working_It_Out">repository</a> on Github. 
+* I created an app on Heroku and deployed from same.
+* In Heroku deployment method was set to Github with automatic deploys set from the master branch.
+* The app was then deployed via this link: "https://git.heroku.com/working-it-out.git".
+
+#### To clone the repository:
+* Select the Repository from Github.
+* Click on the "Clone or download" green button
+* Click on the "clipboard icon" to the right of the Git URL to copy the web URL.
+* Open your IDE and navigate to terminal window
+* Change the directory to where you want to clone the repository to.
+* Paste the Git URL copied from above and click "Ok".
+
+[Back to Top](#table-of-contents)
