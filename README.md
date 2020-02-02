@@ -175,3 +175,22 @@ controlling throughout the life-cycle of the project build.
 * Paste the Git URL copied from above and click "Ok".
 
 [Back to Top](#table-of-contents)
+
+## Credits
+
+### Content
+
+- Text was taken from the <a href="thegymadvisors.ie">The Gym Advisors </a> 
+
+### Media
+
+- The background image was taken from Google Image Search
+
+### Help With Code
+
+- I got the code for my modal on [Bootstrap](https://www.w3schools.com/bootstrap/bootstrap_modal.asp).
+- I also found myself re-watching a lot of the videos and tutorials on [Code Institute](https://codeinstitute.net/), especially The Data Centric Development module. 
+
+### Acknowledgements
+
+I would like to thank tutor support for helping me with all the initial issues I had using the aws Cloud9 IDE. 
