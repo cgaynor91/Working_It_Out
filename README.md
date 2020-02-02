@@ -67,7 +67,8 @@ The project is version controlled via Git & Github and is deployed via Heroku. A
 * * *As a  User,* I would like to able to view this application on all device widths.
 * *As a  Gym Owner,* I would like to be able to view reviews about my gym.
 * *As a  Gym Owner,*  I would like to be able to update the details about my gym if someone has mistakenly provided inaccurate information. 
-### Design Ideas
+
+### Design
 
 - When designing the application I wanted to keep it relatively simplistic as I feel it gives it a modern touch.
 
@@ -77,6 +78,36 @@ The project is version controlled via Git & Github and is deployed via Heroku. A
 
 - I utilised the forms from bootstrap and adapted them accordingly using the colour scheme that has been applied throughout.
 
-- The font I selected as the primary font 
+- The font I selected as the primary font is *Rubik* as I felt it was bold and strong and fitted nicely in with the theme of the website. “Sans-Serif” is used as the default backup font in cases where the primary font has difficulty loading.
+ 
+- The navbar is coloured with Bootstraps built-in design. It is a dark navbar and matches the theme of the page, I decided to continue with this dark theme throughout the webpage using the dark option for the footer and the data table.
 
--  
+- All buttons are deisgned again using Bootstraps inline design options. I have used the 'dark' option for any subit buttons and the 'danger'. On the home page I decided to use the outline button for the gym name as I felt if I had used a block colour it would take away from the background image on the page and wouldn't have been aesthetically pleasing. 
+
+
+### Wireframing
+
+When I was inititally thinking of the project I went online to have a look at other possible websites to get inspiration, this is when I discovered the lack of such websites. This probably made it harder to decide what style website to go with as I had to keep within my capablities and not get too imaginative. I created wireframes using Balsamiq, displaying what I would like the application to look like on all devices.
+
+[Back to Top](#table-of-contents)
+
+## Technology Used
+
+* HTML, CSS & Python 
+* <a href="https://getbootstrap.com/"> Bootstrap Framework</a> - I decided to use this as opposed to Materialize as I have used Bootstrap before and I found it more user friendly. This framework ensured mobile-first design and a responsive application. 
+* <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/#js">Javascript & JQuery</a> - I used the supplied technology for my Navbar to have collapse functionality.
+* <a href="https://www.awseducate.com/student/s/awssite">PyCharm IDE</a> - AWS Cloud9 was the IDE I used to create the project.
+controlling throughout the life-cycle of the project build.
+* <a href="https://git-scm.com/">Git</a> - Git was used to push to my local repository throughout the creation process.
+* <a href="https://github.com/auxfuse/Milestone1">Github</a> - My repository host that I pushed to throughout the project.
+* <a href="https://www.heroku.com/">Heroku</a> - I pushed to Heroku to deploy my project and view the app running from here. 
+
+#### Other Sources
+
+* <a href="https://www.mongodb.com/cloud/atlas">MongoDB Atlas</a> - The database I used to create and store the data for the application.
+* <a href="https://balsamiq.com/">Balsamiq</a> - Used to create wireframes for the project.
+* <a href="https://realfavicongenerator.net/">Favicon Generator</a> ~ Used to create favicon
+* <a href="https://validator.w3.org/">W3C HTML Validator</a>
+* <a href="https://validator.w3.org/">W3C CSS Validator</a>
+* <a href="https://jshint.com/">JSHint</a>
+* <a href="https://fontawesome.com/icons?d=gallery">Font Awesome Icons</a> ~ For social icons in footer
