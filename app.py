@@ -29,7 +29,13 @@ def add_new_gym():
 @app.route("/insert_gym", methods=['POST'])
 def insert_gym():
     gym = mongo.db.gyms
-    gym.insert_one(request.form.to_dict())
+    gym.insert_one({
+        'gym_name': request.form.get('gym_name'),
+        'gym_type': request.form.get('gym_type'),
+        'gym_address':request.form.get('gym_address'),
+        'cost':request.form.get('cost'),
+        'gym_url':request.form.get('gym_url'),
+        })
     return redirect(url_for('get_gyms'))
 
 

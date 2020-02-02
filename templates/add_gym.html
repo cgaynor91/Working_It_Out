@@ -5,11 +5,11 @@
     <div class="row justify-content-center">
         <div class="col-10 text-dark welcome-text">
             <h1><strong>Are we missing a gym?</strong></h1>
-            <p><strong>Add that gym's details here!</strong></p>
+            <h3><strong>Add that gym's details here!</strong></h3>
         </div>
     </div>
     <!-- Form adapted from Bootstrap -->
-    <div class="row row-form justify-content-center">
+    <div class="container justify-content-center">
         <div class="col-12 col-md-5">
             <!-- Form fields -->
             <form action="{{url_for('insert_gym')}}" method="POST" class="form_font">
@@ -29,7 +29,7 @@
                 </div>
                 <div class="form-group font-weight-bolder">
                     <label for="address">Gym Address</label>
-                    <textarea class="form-control" id="address" name="address" rows="10" required></textarea>
+                    <textarea class="form-control" id="address" name="address" rows="2" required></textarea>
                 </div>
                 <div class="form-group font-weight-bolder">
                     <label for="access">Membership Cost</label>
@@ -42,11 +42,11 @@
                 </div>
                 <div class="form-group font-weight-bolder">
                     <label for="gym_url">Gym Website: </label>
-                    <textarea class="form-control" id="gym_url" name="gym_url" rows="3"
+                    <textarea class="form-control" id="gym_url" name="gym_url" rows="2"
                         required></textarea>
                 </div>
                 <!-- Send button -->
-                <button type="submit" class="btn btn-success">Submit</button>
+                <button type="submit" class="btn btn-dark btn-lg">Submit</button>
             </form>
         </div>
     </div>
