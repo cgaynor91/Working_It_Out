@@ -1,14 +1,33 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# Milestone Project 3
+***
+
+## Table of Contents:
+* [What is the project?](#what-does-it-do-and-what-does-it-need-to-fulfill)
+* [Project Functionality](#functionality-of-project)
+* [User Experience](#user-experience)
+    * [User Stories](#user-stories)
+    * [Design](#design)
+* [Technology Used](#technology-used)
+* [Features](#features)
+    * [Future Features](#future-features)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
 
-Hi there! Welcome to AWS Cloud9!
+***
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+## Welcome to Working It Out!
 
-Happy coding!
+## What is the project?
+
+This project is the third milestone project of the Fullstack Web Developer Course and it incorporates the previous modules covered with a emphasis on the most recent modules covered - Python Fundamentals, Practical Python and Data Centric Development
+
+The project brief requires you to 
+> Build a MongoDB-backed Flask project for a web application that allows users to store and manipulate data records about a particular domain. <br>
+
+There is a focus in the brief to 
+
+>Create functionality for users to create, locate, display, edit and delete records (CRUD functionality). <br>
+
+This Application will allow a user to create, read, update and delete details and reviews about local gyms and is called <a href="">Working It Out</a>.
