@@ -6,7 +6,7 @@
             <h1><strong>Update A Gyms's Details Here</strong></h1>
         </div>
     </div>
-    <div class="container justify-content-center">
+    <div class="row row-form justify-content-center">
         <div class="col-12 col-md-5">
             <!-- Form fields here -->
             <form action="{{url_for('update_gym', gym_id=gym._id) }}" method="POST" class="form_font">
@@ -23,7 +23,6 @@
                         <option>Fitness Classes</option>
                         <option>Weightlifting</option>
                         <option>Gym and Pool</option>
-                      
                         {% endif %}
                     </select>
                 </div>
