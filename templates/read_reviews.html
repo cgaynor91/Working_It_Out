@@ -1,13 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<div class="container-fluid_reviews">
-
-        <div class="row">
-            <div class="col-10 text-dark welcome-text">
-                <p><strong>Check out reviews from other fitness fanatics below</strong></p>
-            </div>
+<div class="container-fluid-review">
+ <div class="row justify-content-center">
+        <div class="col-10 text-dark welcome-text">
+            <h1><strong>Check out the reviews here!</strong></h1>
         </div>
+     
+    </div>
         
             {% for review in reviews %}
             <div class="row-review justify-content-center">
@@ -16,7 +16,7 @@
                         <li class="media">
                             <img src="{{ url_for('static', filename='images/user.png') }}" class="mr-3" alt="User">
                             <div class="media-body">
-                                <h6 class="mt-0 mb-1">Gym Reviewed: {{review.gym_name}}</h5>
+                                <h6><strong></strong>Gym Reviewed: {{review.gym_name}}</strong></h5>
                                 <span>Date of Review: {{review.date_of_review}} </span>
                                 <p>Review by: {{review.review_by}} </p>
                                 <p>{{review.review}}</p>
