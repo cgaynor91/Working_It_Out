@@ -4,6 +4,8 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css" />
+    <title>Working It Out!</title>
 </head>
 
 <body>
@@ -20,23 +22,20 @@
                     <a class="nav-item nav-link" href="{{url_for('about')}}">About Us</a>
                     <a class="nav-item nav-link" href="{{url_for('add_new_gym')}}">Add A New Gym</a>
                     <a class="nav-item nav-link" href="{{url_for('gym_review')}}">Review a Gym</a>
-                     <a class="nav-item nav-link" href="{{url_for('read_review')}}">Read Reviews</a>
-                     
+                    <a class="nav-item nav-link" href="{{url_for('read_review')}}">Read Reviews</a>
+
 
                 </div>
             </div>
-            
+
         </nav>
     </header>
-        <!-- Container for background image -->
-    <div class="container-fluid bg">
-    </div>
-    <!-- Container for injected templates -->
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-10 template-col">
 
-    {% block content %} {% endblock %}
+    <!-- Background image -->
+    <div class="container-fluid bg"></div>
+
+
+                {% block content %} {% endblock %}
 
 
 

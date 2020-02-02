@@ -1,0 +1,41 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+
+.container-fluid_reviews {
+    text-align: left;
+}
+
+.display-3 {
+    margin-top: 10px;
+}
+    
+.bg {
+    background-image: url(../images/bg-image.png);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.jumbotron {
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+
+.jumbo-text {
+    color: #000;
+    font-weight: bolder;
+}
+
+/*
+
